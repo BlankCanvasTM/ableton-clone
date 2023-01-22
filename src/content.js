@@ -1,3 +1,5 @@
+import pic from ".stockmanComputer.jpg";
+
 const Content = () => {
     return ( 
         <div className="content">
@@ -9,6 +11,13 @@ const Content = () => {
                 <li><a href="">Apprenticeships</a></li>
 
             </ul>
+
+
+            <div>
+                
+            <img src={pic} alt="" />
+            
+            </div>
 
 
         </div>
